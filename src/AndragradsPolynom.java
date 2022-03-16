@@ -26,4 +26,8 @@ public class AndragradsPolynom {
         return new AndragradsPolynom(0,2*A,B);
     }
 
+    @Override
+    public String toString() {
+        return A + " x^2 + " + B + " x + " + C;
+    }
 }
